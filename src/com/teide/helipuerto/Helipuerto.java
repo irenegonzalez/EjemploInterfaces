@@ -21,7 +21,7 @@ public class Helipuerto {
    }
    
    void eliminar () {
-       
+       System.out.println("eliminado");
    }
            
         
