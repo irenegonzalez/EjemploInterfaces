@@ -19,6 +19,11 @@ public class Helipuerto {
    void añadir (Volador v){
        listado.add(v); 
    }
+   
+   void eliminar () {
+       
+   }
+           
         
         
     
