@@ -6,13 +6,19 @@
 
 package com.teide.helipuerto;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author DAM1
  */
 public class Helipuerto {
     
-   
+    ArrayList<Volador> listado = new ArrayList<>();
+    
+   void añadir (Volador v){
+       listado.add(v); 
+   }
         
         
     
