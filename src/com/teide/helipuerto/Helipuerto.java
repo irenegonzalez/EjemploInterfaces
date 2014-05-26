@@ -14,20 +14,26 @@ import java.util.ArrayList;
  */
 public class Helipuerto {
     
-    ArrayList<Volador> listado = new ArrayList<>();
+   private ArrayList<Volador> listado = new ArrayList<>();
     
-   void añadir (Volador v){
-       listado.add(v); 
+   
+   
+   public boolean eliminar (int pos) {
+       if(pos<listado.size()){
+            listado.remove(posicion);
+            return true;
+       }
+       return false;
    }
    
-   void eliminar () {
-       
-       System.out.println("Yo si que lo elimino");
-       
-   }
-           
+  
         
-        
+   public String  darPermisoParaDespegar (int pos) {
+       
+       if(pos<listado.size()) return listado.get(pos).despegar();
+       return null;
+       
+   }     
     
     
 }
