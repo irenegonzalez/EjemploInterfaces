@@ -15,12 +15,12 @@ import java.util.ArrayList;
 public class Helipuerto {
     
    private ArrayList<Volador> listado = new ArrayList<>();
-    
-   
+ 
+
    
    public boolean eliminar (int pos) {
        if(pos<listado.size()){
-            listado.remove(posicion);
+            listado.remove(pos);
             return true;
        }
        return false;
