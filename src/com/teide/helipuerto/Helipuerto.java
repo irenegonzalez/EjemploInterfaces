@@ -20,7 +20,9 @@ public class Helipuerto {
        listado.add(v); 
    }
         
-        
+   void buscar () {
+       
+   }     
     
     
 }
