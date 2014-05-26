@@ -22,6 +22,8 @@ public class Helipuerto {
    
    void eliminar () {
        
+       System.out.println("Yo si que lo elimino");
+       
    }
            
         
