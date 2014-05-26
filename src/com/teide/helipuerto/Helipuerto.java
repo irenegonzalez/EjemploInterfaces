@@ -14,19 +14,17 @@ import java.util.ArrayList;
  */
 public class Helipuerto {
     
-    ArrayList<Volador> listado = new ArrayList<>();
+    private ArrayList<Volador> listado = new ArrayList<>();
     
-   void añadir (Volador v){
+   public void añadir (Volador v){
        listado.add(v); 
    }
    
-   void eliminar () {
-       System.out.println("eliminado");
-   }
-           
+   
         
-   void buscar () {
-       
+   public String permisoAterrizar (int pos, int metros) {
+       if (pos<listado.size()) return listado.get(pos).aterrizar(metros);
+       return null;
    }     
     
     
